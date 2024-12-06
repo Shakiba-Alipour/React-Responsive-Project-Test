@@ -1,0 +1,64 @@
+#navbar {
+  background-color: var(--silver);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  width: 100% !important;
+  justify-content: space-around;
+}
+
+#logo-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+#logo {
+  width: 1.75em;
+}
+
+#name {
+  color: var(--black);
+}
+
+#menu-holder {
+  display: flex;
+  height: fit-content;
+  padding: 0%;
+  margin: 0%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: fit-content;
+  margin-right: 2em;
+  justify-content: space-around;
+  align-self: center;
+}
+
+#menu li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#sign-in-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+#login {
+  color: var(--primary);
+  border-radius: 6px;
+}
+
+#sign-up {
+  background-color: var(--primary);
+  width: max-content;
+  border-radius: 6px;
+}
