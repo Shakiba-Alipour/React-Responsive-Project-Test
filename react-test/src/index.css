@@ -30,8 +30,8 @@
   --header-font-size: clamp(12px, 1.25vw, 24px);
 
   /* Headline 1 */
-  --headline-1-font-size: clamp(16px, 2vw, 32px); /* Semi Bold, 64/76 */
-  --headline-1-line-height: clamp(24px, 2.5vw, 48px);
+  --headline-1-font-size: clamp(55px, 2vw, 80px); /* Semi Bold, 64/76 */
+  --headline-1-line-height: clamp(48px, 2.5vw, 76px);
   --headline-1-font-weight: 600; /* Semi Bold */
 
   /* Headline 2 */
