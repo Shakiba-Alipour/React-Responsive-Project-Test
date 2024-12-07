@@ -29,8 +29,6 @@
   height: fit-content;
   padding: 0%;
   margin: 0%;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 #menu {
@@ -52,6 +50,7 @@
 #sign-in-holder {
   display: flex;
   flex-direction: row;
+  height: max-content;
 }
 
 #login {
@@ -63,4 +62,11 @@
   background-color: var(--primary);
   width: max-content;
   border-radius: 6px;
+}
+
+@media screen and (min-width: 780px) {
+  #menu-holder {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

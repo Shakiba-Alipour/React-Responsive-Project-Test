@@ -54,6 +54,16 @@ export default function Navbar() {
         <h2 id="name">Nexcent</h2>
       </Link>
 
+      <div id="menu-holder">
+        <ul id="menu">
+          {NavbarItems.map((item) => (
+            <li className="menu-item" key={item.key}>
+              {item.label}
+            </li>
+          ))}
+        </ul>
+      </div>
+
       {isMobile ? <MobileNavbarManagement /> : <DesktopNavbarManagement />}
     </header>
   );
@@ -83,22 +93,13 @@ function MobileNavbarManagement() {
 
 function DesktopNavbarManagement() {
   return (
-    <div id="menu-holder">
-      <ul id="menu">
-        {NavbarItems.map((item) => (
-          <li className="menu-item" key={item.key}>
-            {item.label}
-          </li>
-        ))}
-      </ul>
-      <div id="sign-in-holder">
-        <Button id="login" variant="text">
-          Login
-        </Button>
-        <Button id="sign-up" variant="contained">
-          Sign up
-        </Button>
-      </div>
+    <div id="sign-in-holder">
+      <Button id="login" variant="text">
+        Login
+      </Button>
+      <Button id="sign-up" variant="contained">
+        Sign up
+      </Button>
     </div>
   );
 }
