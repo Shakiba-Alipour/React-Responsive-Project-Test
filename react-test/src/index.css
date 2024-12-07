@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --black: #000000;
   --dark-grey: #263238;
   --d-grey: #4d4d4d;
@@ -23,6 +24,50 @@
   --warning: #fbc02d;
   --error: #e53835;
   --success: #2e7d31;
+
+  /* Font Sizes */
+  /* Header */
+  --header-font-size: clamp(12px, 1.25vw, 24px);
+
+  /* Headline 1 */
+  --headline-1-font-size: clamp(16px, 2vw, 32px); /* Semi Bold, 64/76 */
+  --headline-1-line-height: clamp(24px, 2.5vw, 48px);
+  --headline-1-font-weight: 600; /* Semi Bold */
+
+  /* Headline 2 */
+  --headline-2-font-size: clamp(14px, 1.75vw, 28px); /* Semi Bold, 36/44 */
+  --headline-2-line-height: clamp(22px, 2.25vw, 36px);
+  --headline-2-font-weight: 600; /* Semi Bold */
+
+  /* Headline 3 */
+  --headline-3-font-size: clamp(12px, 1.5vw, 24px); /* Semi Bold, 28/36 */
+  --headline-3-line-height: clamp(18px, 2vw, 28px);
+  --headline-3-font-weight: 600; /* Semi Bold */
+
+  /* Headline 4 */
+  --headline-4-font-size: clamp(10px, 1.25vw, 16px); /* Semi Bold, 20/28 */
+  --headline-4-line-height: clamp(14px, 1.75vw, 24px);
+  --headline-4-font-weight: 600; /* Semi Bold */
+
+  /* Body 1 */
+  --body-1-font-size: clamp(14px, 1.5vw, 16px); /* Regular, 18/28 */
+  --body-1-line-height: clamp(20px, 2vw, 28px);
+  --body-1-font-weight: 400; /* Regular */
+
+  /* Body 2 */
+  --body-2-font-size: clamp(12px, 1.5vw, 14px); /* Regular, 16/24 */
+  --body-2-line-height: clamp(16px, 2vw, 24px);
+  --body-2-font-weight: 400; /* Regular */
+
+  /* Body 3 */
+  --body-3-font-size: clamp(10px, 1.25vw, 14px); /* Regular, 14/20 */
+  --body-3-line-height: clamp(14px, 1.75vw, 20px);
+  --body-3-font-weight: 400; /* Regular */
+
+  /* Body 4 */
+  --body-4-font-size: clamp(8px, 1vw, 12px); /* Regular, 12/16 */
+  --body-4-line-height: clamp(12px, 1.5vw, 16px);
+  --body-4-font-weight: 400; /* Regular */
 }
 
 body {
