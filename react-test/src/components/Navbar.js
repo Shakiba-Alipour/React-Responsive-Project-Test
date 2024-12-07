@@ -3,7 +3,7 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import Link from "@mui/material/Link";
 import { ReactComponent as Logo } from "../assets/logo.svg";
-import { Button, ButtonGroup } from "@mui/material";
+import { Button } from "@mui/material";
 
 const NavbarItems = [
   {
@@ -86,7 +86,7 @@ function DesktopNavbarManagement() {
     <div id="menu-holder">
       <ul id="menu">
         {NavbarItems.map((item) => (
-          <li className="nav-link" key={item.key}>
+          <li className="menu-item" key={item.key}>
             {item.label}
           </li>
         ))}

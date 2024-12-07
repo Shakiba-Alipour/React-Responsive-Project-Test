@@ -6,6 +6,7 @@
   flex-direction: row;
   width: 100% !important;
   justify-content: space-around;
+  position: sticky;
 }
 
 #logo-holder {
