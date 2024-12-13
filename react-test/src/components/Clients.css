@@ -3,8 +3,9 @@
   margin-bottom: 3em;
 }
 
-#title {
+#clients-section-title {
   color: var(--d-grey);
+  font-size: var(--headline-2-font-size);
 }
 
 #logos {

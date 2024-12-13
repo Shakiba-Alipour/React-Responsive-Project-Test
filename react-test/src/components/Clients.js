@@ -12,7 +12,7 @@ const clients = [client1, client2, client3, client4, client5, client6, client7];
 export default function Clients() {
   return (
     <div id="clients-section">
-      <h2 id="title">Our Clients</h2>
+      <h2 id="clients-section-title">Our Clients</h2>
       <p>We have been working with some Fortune 500+ clients</p>
       <ul id="logos">
         {clients.map((Client, index) => (
