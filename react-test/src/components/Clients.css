@@ -6,6 +6,7 @@
 #clients-section-title {
   color: var(--d-grey);
   font-size: var(--headline-2-font-size);
+  font-weight: var(--headline-2-font-weight);
 }
 
 #logos {
