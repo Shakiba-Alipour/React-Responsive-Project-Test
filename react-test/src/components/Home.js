@@ -14,7 +14,7 @@ export default function Home() {
         <p>
           Where to grow your business as a photographer: site or social media?
         </p>
-        <Button variant="contained" id="register">
+        <Button variant="contained" id="register" className="button">
           Register
         </Button>
       </div>

@@ -94,10 +94,10 @@ function MobileNavbarManagement() {
 function DesktopNavbarManagement() {
   return (
     <div id="sign-in-holder">
-      <Button id="login" variant="text">
+      <Button className="button" id="login" variant="text">
         Login
       </Button>
-      <Button id="sign-up" variant="contained">
+      <Button className="button" id="sign-up" variant="contained">
         Sign up
       </Button>
     </div>
