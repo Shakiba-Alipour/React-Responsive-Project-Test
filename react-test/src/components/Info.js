@@ -13,20 +13,22 @@ export default function Info() {
           <br />
           <span id="line2">business reinvent itself</span>
         </h2>
-        <p>We reached here with our hard work and dedication</p>
+        <p id="description">
+          We reached here with our hard work and dedication
+        </p>
       </div>
       <div id="table">
         <div id="row1" className="row">
-          <div>
+          <div className="cell">
             <MembersLogo className="info-logo" />
-            <div>
+            <div className="details">
               <h3>2,245,341</h3>
               <p>Members</p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <ClubsLogo className="info-logo" />
-            <div>
+            <div className="details">
               <h3>46,328</h3>
               <p>Clubs</p>
             </div>
@@ -34,16 +36,16 @@ export default function Info() {
         </div>
 
         <div id="row2" className="row">
-          <div>
+          <div className="cell">
             <BookingLogo className="info-logo" />
-            <div>
+            <div className="details">
               <h3>828,867</h3>
-              <p>Event bookings</p>
+              <p>Event Bookings</p>
             </div>
           </div>
-          <div>
+          <div className="cell">
             <PaymentLogo className="info-logo" />
-            <div>
+            <div className="details">
               <h3>1,926,436</h3>
               <p>Payments</p>
             </div>
