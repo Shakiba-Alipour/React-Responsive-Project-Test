@@ -1,0 +1,16 @@
+#demo {
+  background-color: var(--silver);
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h1 {
+  color: var(--dark-grey);
+  font-size: var(--headline-1-font-size);
+  text-align: center;
+  align-self: center;
+}
+
+.button {
+  background-color: var(--primary);
+}
