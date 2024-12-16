@@ -39,7 +39,7 @@ export default function Home() {
     <div id="carousel">
       <div id="intro">
         <div id="data">
-          <h1>
+          <h1 id="home-title">
             <span id="title1">{slides[currentIndex].title1}</span>
             <br />
             <span id="title2">{slides[currentIndex].title2}</span>

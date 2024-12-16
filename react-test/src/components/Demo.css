@@ -4,9 +4,10 @@
   padding-bottom: 2em;
 }
 
-h1 {
+#demo-description {
   color: var(--dark-grey);
   font-size: var(--headline-1-font-size);
+  font-weight: var(--headline-1-font-weight);
   text-align: center;
   align-self: center;
 }
