@@ -12,6 +12,6 @@
   align-self: center;
 }
 
-.button {
+#demo-button {
   background-color: var(--primary);
 }

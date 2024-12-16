@@ -11,6 +11,7 @@ export default function Demo() {
         <span>fringilla libero eu.</span>
       </h1>
       <Button
+        id="demo-button"
         className="button"
         variant="contained"
         endIcon={<ArrowForwardIcon />}
