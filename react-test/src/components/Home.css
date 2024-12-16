@@ -1,12 +1,19 @@
-#intro {
+#carousel {
   display: flex;
   background-color: var(--silver);
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+#intro {
+  display: flex;
   width: 100%;
   margin-top: 4.5em;
 }
 
 h1 {
-  text-align: start;
+  text-align: start !important;
   font-size: var(--headline-1-font-size);
   font-weight: var(--headline-1-font-weight);
 }
@@ -68,4 +75,25 @@ p {
   .pic {
     width: 15em;
   }
+}
+
+/* Dots Styling */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: var(--tint-4);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: var(--primary);
 }
