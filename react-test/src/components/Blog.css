@@ -1,6 +1,7 @@
 #blog {
   text-align: center;
   padding: 2rem;
+  height: fit-content;
 }
 
 #title {
@@ -19,20 +20,40 @@
   margin-right: auto;
 }
 
-.card {
-  justify-items: center;
-  width: 30%;
-  height: min-content;
+#cards {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.card {
+  flex: 1 1 calc(30% - 2rem);
+  max-width: 30%;
+  height: auto;
+  min-height: 25rem;
+}
+
+@media screen and (max-width: 780px) {
+  .card {
+    flex: 1 1 calc(45% - 2rem);
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 .image-container {
   width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  height: 15rem;
+  display: flex;
 }
 
 .card-image {
@@ -41,23 +62,19 @@
   object-fit: cover;
 }
 
-#cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-self: center;
-}
-
 .content-overlay {
   text-align: center;
   padding: 1rem;
   background-color: var(--silver);
   border-radius: 8px;
   position: absolute;
-  padding: 1rem;
   box-sizing: border-box;
   bottom: 0;
-  left: 0;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
 
 .card-caption {
@@ -65,28 +82,12 @@
   font-weight: var(--headline-4-font-weight);
   color: var(--grey);
   margin-bottom: 0.5rem;
+  word-wrap: break-word;
+  overflow: visible;
 }
 
 #readmore-button {
   color: var(--primary);
   font-weight: bold;
   text-transform: none;
-}
-
-@media screen and (min-width: 780px) {
-  #cards {
-    flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  #cards {
-    flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #cards {
-    flex-direction: column;
-  }
 }

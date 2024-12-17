@@ -3,7 +3,6 @@ import { ReactComponent as Image1 } from "../assets/image1.svg";
 import { ReactComponent as Image2 } from "../assets/image2.svg";
 import { ReactComponent as Image3 } from "../assets/image3.svg";
 import { Card } from "@mui/material";
-import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -30,9 +29,7 @@ function CardBuilder(card) {
       <div className="image-container">
         <card.image className="card-image" />
         <div className="content-overlay">
-          <Typography variant="h6" className="card-caption">
-            {card.caption}
-          </Typography>
+          <Typography className="card-caption">{card.caption}</Typography>
           <Button
             variant="text"
             color="success"
