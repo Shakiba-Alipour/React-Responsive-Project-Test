@@ -49,7 +49,7 @@ export default function Navbar() {
 
   return (
     <header id="navbar">
-      <Link href="/" id="logo-holder" underline="none">
+      <Link href="/" className="logo-holder" underline="none">
         <Logo id="logo" />
         <h2 id="name">Nexcent</h2>
       </Link>
