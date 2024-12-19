@@ -1,6 +1,9 @@
 #clients-section {
   margin-top: 3em;
   margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #clients-section-title {
@@ -13,8 +16,7 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  width: inherit;
+  width: 80%;
   justify-content: space-around;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
