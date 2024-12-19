@@ -1,0 +1,79 @@
+#footer {
+  background-color: var(--dark-grey);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+#site-footer-name {
+  color: var(--white);
+}
+
+.h4_title {
+  color: var(--silver);
+}
+
+#policy {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: var(--white);
+}
+
+#copy-right {
+  width: fit-content;
+  color: var(--silver);
+}
+
+#copy-right p {
+  color: var(--silver);
+}
+
+#socials {
+  width: fit-content;
+}
+
+.socials-logo {
+  color: var(--white);
+  display: inline-block;
+}
+
+.icon-button {
+  background-color: var(--d-grey);
+  border-radius: 30px;
+  padding: 0.3em;
+  margin-right: 1em;
+  display: flex;
+  align-content: center;
+}
+
+.footer-sections {
+  text-align: left;
+}
+
+#sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  color: var(--silver);
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+#form {
+  background-color: var(--grey);
+  border-radius: 8px;
+  height: 40px;
+  border-color: var(--grey);
+  display: flex;
+  align-self: center;
+}
+
+#email-holder {
+  color: var(--white);
+}
